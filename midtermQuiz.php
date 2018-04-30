@@ -2,7 +2,7 @@
 
 function isBitten() {
     $random = rand(0, 1);
-    if ($random === 0){
+    if ($random === 1){
         return 'Lion bit your finger!';
     } else {
         return 'Lion did not bite your finger!';
@@ -11,7 +11,7 @@ function isBitten() {
 }
 
 $result = isBitten();
-
+$result;
 // var_dump(isBitten());
 ?>
 
@@ -21,12 +21,11 @@ $result = isBitten();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Hungry Lion</title>
 </head>
 <body>
     <div>
-    <?php 
-    $output = isBitten();
+    <?php
     echo $output;
     ?>
     </div>
