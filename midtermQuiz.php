@@ -1,11 +1,17 @@
+//
+// Multiple choice answers selected on quiz.txt with '======' strips.
+//
 <?php
+//      ==========
+//   ====== #1 ======
+// =====================
 
 function isBitten() {
     $random = rand(0, 1);
     if ($random === 1){
-        return 'Lion bit your finger!';
+        return 'Lion bit your arm!';
     } else {
-        return 'Lion did not bite your finger!';
+        return 'Lion did not bite your arm! Or did it?';
     }
     return $random;
 }

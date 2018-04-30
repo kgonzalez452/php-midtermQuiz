@@ -1,3 +1,9 @@
+
+
+//
+// Multiple choice answers selected on here, below #3 with '======' strips.
+//
+
 1: Lion bit my finger!
 
 Part 1: Lion will bite your finger exactly 50% of the time. First, write a function isBitten() that returns TRUE with 50% probability, and FALSE otherwise. Hint: You may find the rand() function useful.
@@ -11,16 +17,6 @@ Part 2: In the same file, write a form consisting of a single text field and a s
 Upon submitting the form, you should be redirected to the same page, but the URL should contain the string from the text field as a GET request normally behaves.
 Side note: Prevent security vulnerabilities with $_SERVER[‘PHP_SELF’]. For more information, take a look here: http://www.html-form-guide.com/php-form/php-form-action-self.html
 Part 3: Check for the existence of a GET request. If a GET request exists with the name of the input field that you made in Part 2, run the contents of the request through your countWords($str) function. Take the output array of the function, and display an HTML table of words and the number of times they occur. Make the table sorted by decreasing number of occurrences.
-
-<?php
-//      ==========
-//   ====== #2 ======
-// =====================
-function countWords($str){
-
-}
-
-?>
 
 
 3:

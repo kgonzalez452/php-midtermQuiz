@@ -1,3 +1,6 @@
+//
+// Multiple choice answers selected on quiz.txt with '======' strips.
+//
 <?php
 //      ==========
 //   ====== #2 ======
