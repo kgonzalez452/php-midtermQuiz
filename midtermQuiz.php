@@ -34,6 +34,9 @@ $result = isBitten();
 </html>
 
 <?php 
+//      ==========
+//   ====== #3 ======
+// =====================
 class User {
     private $first;
     private $last;
@@ -43,17 +46,9 @@ class User {
         if ($first && $last){
             echo ('Hello '.$first.' '.$last);
         } else {
-            alert('Please enter your first and last name.')
+            alert('Please enter your first and last name.');
         }
 
     }
 }
-?>
-
-<?php
-
-function countWords($str){
-    
-}
-
 ?>

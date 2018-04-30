@@ -9,8 +9,19 @@ Part 1: Write a function countWords($str) that takes any string of characters an
 Hint 2: The print_r($array_name) function is useful for examining the contents of an array.
 Part 2: In the same file, write a form consisting of a single text field and a submit button. The “action” attribute to the form should be the same page that the form is on (don’t hard code, use $_SERVER[‘PHP_SELF’]). The form should send the contents of the text field via GET.
 Upon submitting the form, you should be redirected to the same page, but the URL should contain the string from the text field as a GET request normally behaves.
-Side note: Prevent security vulnerabilities with $_SERVER[‘PHP_SELF’]. For more information, take a look here: http://www.html-form-guide.com/php-form/php-form-action- self.html
+Side note: Prevent security vulnerabilities with $_SERVER[‘PHP_SELF’]. For more information, take a look here: http://www.html-form-guide.com/php-form/php-form-action-self.html
 Part 3: Check for the existence of a GET request. If a GET request exists with the name of the input field that you made in Part 2, run the contents of the request through your countWords($str) function. Take the output array of the function, and display an HTML table of words and the number of times they occur. Make the table sorted by decreasing number of occurrences.
+
+<?php
+//      ==========
+//   ====== #2 ======
+// =====================
+function countWords($str){
+
+}
+
+?>
+
 
 3:
 
@@ -19,7 +30,7 @@ Let's write a user class with the tools we have  acquired. This class will conta
 1) The attributes are private.
 2) Create a public interface to set and get our attributes
 3) Say hello!
-4) Use a constructor to set up the initial state of your object.
+4) Use a constructor to set up the initial state of your object. //watch videos on how to properly use a PHP constructor.
 
 <?php 
 class User {
